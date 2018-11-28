@@ -510,9 +510,7 @@ form {
 
 .flip-clock-wrapper {
   padding: 15px 0;
-  margin-left: 0;
-  margin-right: 0;
-  display: inline-block;
+  margin: 0 auto;
   vertical-align: middle;
   min-width: 340px;
   max-width: 350px; }
@@ -526,8 +524,8 @@ form {
     .flip-clock-wrapper ul li a div.down {
       border-radius: 0 !important; }
     .flip-clock-wrapper ul li a div div.inn {
-      background-color: #fff;
-      color: #000;
+      background-color: #3e6bb7;
+      color: #fff;
       text-shadow: none;
       font-size: 43px;
       line-height: 68px;
@@ -541,7 +539,7 @@ form {
     font-size: 16px;
     line-height: 28px;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     font-weight: 900;
     font-family: 'Open Sans', sans-serif;
   }
@@ -628,7 +626,9 @@ form {
   padding: 10px 30px;
   color: #fff;
   font-weight: 800;
-  border: none; }
+  border: none;
+  position: relative;
+}
   .standard-button b {
     display: block;
     text-align: center;
@@ -685,43 +685,53 @@ form {
   line-height: 24px;
   margin-bottom: 20px;
   font-weight: 500; }
-
+.standard-button:before {
+  content: '';
+  position: absolute;
+  border: 1px solid #ff0041;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+}
+/*---------------about goods--------------------------------*/
 .about-goods {
-  background: url("../images/bg-banner-big.jpg") no-repeat center center;
+  background: url("../images/bg-banner-big.png") no-repeat top center;
   background-size: cover;
   padding: 40px 0;}
-  .about-goods h1 {
-    font-size: 33px;
-    line-height: 32px;
-    color: #feff9b;
-    width: 100%;
-    display: block;
-    font-family: 'Montserrat', cursive;
-    margin-bottom: 60px;
-    font-weight: 800;
-    text-shadow: 2px 2px 2px #080808;
-  }
-  .about-goods h2 {
-    font-size: 20px;
-    line-height: 28px;
-    color: #fff;
-    text-align: left;
-    font-weight: 700;
-    margin-bottom: 35px;
-    font-family: 'Open Sans', sans-serif;
-    text-shadow: 2px 2px 1px #252525; }
+
   .about-goods h3 {
-    font-size: 22px;
+    font-family: 'Montserrat';
+    font-size: 30px;
     line-height: 24px;
-    font-weight: 600;
-    padding-top: 5px; }
-  .about-goods ul {
-    padding-top: 30px; }
-    .about-goods ul li {
-      margin-bottom: 40px; }
-      .about-goods ul li .arrow-position {
-        position: relative;
-        left: -15px; }
+    font-weight: 900;
+    text-transform: uppercase;
+    background-color: #fff569;
+    width: 340px;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  .about-goods h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .facts {
+    margin-left: 40px;
+  }
+  .facts li {
+    padding: 17px 47px 17px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 24px;
+    position: relative;
+  }
+  .facts li:before {
+    content: url(../images/check.svg);
+    position: absolute;
+    left: -55px;
+    top: 20px;
+  }
   .about-goods .image-wrapper {
     position: relative;
     left: -75px;}
