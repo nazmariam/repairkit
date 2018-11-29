@@ -1251,14 +1251,15 @@ form {
 .pd-right{
   padding-right: 0;
 }
-.screen-three{
-  background: url(../images/bg-banner2.jpg)no-repeat center center;
-  background-size: cover;
+.fourth-screen{
+  background: url(../images/bg-left.png) top left no-repeat,
+  #fff url(../images/bg-right.png) no-repeat bottom right;
+  /*background-size: cover;*/
   /*padding: 40px 0;*/
   /*margin-top: 40px;*/
 }
 
-.screen-three h2{
+.fourth-screen h2{
     font-size: 30px;
     line-height: 30px;
     color: #000;
@@ -1268,10 +1269,10 @@ form {
     margin-bottom: 40px;
     font-weight: 700;
 }
-.screen-three .container{
+.fourth-screen .container{
   background-color: rgba(251, 251, 251, 0.9);
 }
-.screen-three .row {
+.fourth-screen .row {
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -1586,7 +1587,7 @@ form {
     margin: 6px 0;
   }
 
-  .screen-three{
+  .fourth-screen{
     background: url(../images/bg-banner2-small.jpg)no-repeat center top;
     background-size: cover;
     padding: 20px 20px;
@@ -1695,15 +1696,15 @@ form {
   .play_cover {
     background: url(../images/youtube-small.jpg) no-repeat center center;
   }
-  .screen-three .row {
+  .fourth-screen .row {
     padding-top: 12px;
     padding-bottom: 26px;
   }
-  .screen-three .container{
+  .fourth-screen.container{
     padding-right: 7px;
     padding-left: 7px;
   }
-  .screen-three h2{
+  .fourth-screen h2{
     font-size: 27px;
     margin-bottom: 8px;
     font-weight: 900;
