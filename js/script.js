@@ -36,17 +36,17 @@ $( document ).ready(function() {
             ]
         })
     }
-    function resizeViseo() {
-        var video = $('video');
-        var videoWidth = video.width();
-        var videoHeight = videoWidth*0.60;
-        video.css('height',videoHeight);
-    }
-    resizeViseo();
-
-    $( window ).resize(function() {
-        resizeViseo();
-    });
+    // function resizeViseo() {
+    //     var video = $('video');
+    //     var videoWidth = video.width();
+    //     var videoHeight = videoWidth*0.60;
+    //     video.css('height',videoHeight);
+    // }
+    // resizeViseo();
+    //
+    // $( window ).resize(function() {
+    //     resizeViseo();
+    // });
 
     $('.play_cover').click(function () {
         $(this).hide();
