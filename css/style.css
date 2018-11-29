@@ -1064,161 +1064,6 @@ form {
 /*---------------------------third-screen END----------------------------*/
 
 
-/*---------------------------comments----------------------------*/
-.comments {
-  padding: 40px 0;
-   background: url(../images/bg-banner3.jpg) no-repeat center center;
-   background-size: cover;
- }
-  .comments .comment-item {
-    background: transparent;
-    margin-bottom:0px;
-    margin-top: 30px;
-    min-height: 180px; }
-    .comments .comment-item .head-comment {
-      display: flex;
-      position: relative;}
-      .comments .comment-item .head-comment h2 {
-        font-size: 16px;
-        line-height: 24px;
-        color: #292929;
-        font-weight: 700; }
-      .comments .comment-item .head-comment h3 {
-        font-size: 16px;
-        line-height: 24px;
-        color: #a2a2a2;
-        font-weight: 700; }
-      .comments .comment-item .head-comment .image-wrapper {
-        margin-right: 25px; }
-      .comments .comment-item .head-comment .user-data {
-        padding-top: 6px; }
-    .comments .comment-item .body-comment {
-      padding: 20px 15px 15px; }
-      .comments .comment-item .body-comment p {
-          font-size: 19px;
-          line-height: 24px;
-          color: #292929;
-          font-weight: lighter; }
-  .comments .slick-dots {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px; }
-    .comments .slick-dots button {
-      font-size: 0;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background: #bfbfbf;
-      border: none;
-      cursor: pointer; }
-    .comments .slick-dots li {
-      margin-right: 5px; }
-      .comments .slick-dots li:last-child {
-        margin-right: 0; }
-      .comments .slick-dots li.slick-active button {
-        background: #545454; }
-  .comments .slick-slide .centered img {
-    margin: 0 auto; }
-.comments .rate {
-  background: url(../images/stars.png) top left no-repeat;
-  width: 87px;
-  height: 15px;
-  position: absolute;
-  top: 8px;
-  right: 8px;
-}
-/*---------------------------comments END----------------------------*/
-/*---------------------------FAQ----------------------------*/
-
-
-.faq {
-  padding: 40px 0;
-  background: #f6f6f6 url(../images/bg-banner4.jpg) 50% 40% no-repeat;
-  background-size: cover;
-  position: relative; }
-  .faq h1 {
-      margin-bottom: 40px;
-      font-size: 38px;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 900;
-     }
-  .faq ul li {
-    text-align: center;
-    margin-bottom: 30px; }
-    .faq ul li h2 {
-      font-size: 20px;
-      line-height: 26px;
-      padding: 15px 45px 15px 15px;
-      text-align: center;
-      font-weight: bold;
-      background: #2d2d2d;
-      border:2px solid #2d2d2d;
-      cursor: pointer;
-      position: relative;
-      color: #fff; }
-      .faq ul li h2:hover,
-      .faq ul li h2.active{
-        /*background: transparent;*/
-        /*color: #2d2d2d;*/
-        -webkit-transition: all 300ms ease-in-out;
-        -moz-transition: all 300ms ease-in-out;
-        -ms-transition: all 300ms ease-in-out;
-        -o-transition: all 300ms ease-in-out;
-        transition: all 300ms ease-in-out;
-      }
-      .faq ul li h2:hover:after,
-      .faq ul li h2.active:after{
-        border-color: #fff;
-      }
-
-      .faq ul li h2:after {
-        content: '';
-        width: 15px;
-        height: 15px;
-        position: absolute;
-        right: 25px;
-        border-right: 2px solid #fff;
-        border-bottom: 2px solid #fff;
-        -moz-transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-        -webkit-transition: all 300ms ease-in-out;
-        -moz-transition: all 300ms ease-in-out;
-        -ms-transition: all 300ms ease-in-out;
-        -o-transition: all 300ms ease-in-out;
-        transition: all 300ms ease-in-out;
-        top: 40%; }
-      .faq ul li h2.active:after {
-        -moz-transform: rotate(-135deg);
-        -webkit-transform: rotate(-135deg);
-        -o-transform: rotate(-135deg);
-        -ms-transform: rotate(-135deg);
-        transform: rotate(-135deg);
-        -webkit-transition: all 300ms ease-in-out;
-        -moz-transition: all 300ms ease-in-out;
-        -ms-transition: all 300ms ease-in-out;
-        -o-transition: all 300ms ease-in-out;
-        transition: all 300ms ease-in-out;
-        top: 40%; }
-    .faq ul li .result {
-      display: none; }
-    .faq ul li p, .faq ul li li {
-      font-size: 18px;
-      line-height: 30px;
-      padding: 15px 0;
-      font-weight: 500;
-      margin-bottom: 0; }
-    .faq ul li ul {
-      padding-top: 15px; }
-    .faq ul li li {
-      padding: 0; }
-  .faq .result {
-    background: none !important; }
-
-/*---------------------------FAQ END----------------------------*/
-
 
 
 /***/
@@ -1248,12 +1093,9 @@ form {
 
 
 
-.pd-left{
-  padding-left: 0;
-}
-.pd-right{
-  padding-right: 0;
-}
+/*-----------------fourth-screen---------------------*/
+
+
 .fourth-screen{
   background: url(../images/bg-left.png) top left no-repeat,
   #fff url(../images/bg-right.png) no-repeat bottom right;
@@ -1268,7 +1110,8 @@ form {
     display: block;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 40px;
-    font-weight: 700;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 .fourth-screen .container{
   background: url("../images/circle.svg") center -307px no-repeat;
@@ -1291,19 +1134,12 @@ form {
   flex-direction: column-reverse;
   margin: 73px 34px 40px;
 }
-.steps-block ul{
-  padding-left: 0;
-  list-style: none;
-  text-align: center;
-  margin: 20px auto;
-}
-.steps-block ul li{
-  display: inline-block;
-  width: 300px;
-  margin: 20px;
-  text-align: center;
-  vertical-align: top;
-  position: relative;
+.fourth-screen-mobile-img{
+  background: url(../images/red-blue.svg) top center no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  margin: 0 0 20px 0;
 }
 
 @-webkit-keyframes rightarrow {
@@ -1321,30 +1157,187 @@ form {
 .img-move{
   -webkit-animation: bagarrow 0.6s infinite alternate ease-in-out;
 }
-.steps-block ul li:last-child:before{
-  display: none;
+
+/*----------------------fourth-screen--------------------------*/
+
+/*---------------------------comments----------------------------*/
+.comments {
+  padding: 40px 0;
+  background-color: #f8f8f9;
+  background-size: cover;
 }
-.steps-block  h3{
-  font-size: 18px;
-  color: #000;
-  font-weight:600;
-  margin-top: 20px;
+.comments .comment-item {
+  background: transparent;
+  margin-bottom:0px;
+  margin-top: 30px;
+  min-height: 180px;
+  display: flex;
 }
-.steps-block h3 span{
-  color: #bb3535;
-  font-size: 20px;
-  font-weight: bold;
-}
-.offer-span{
-  background: #ff1111;
-  color: #f8f9fa;
-  font-weight: bold;
-  padding: 3px 20px;
-  margin-left: -15px;
-  text-align: center;
+.comments .comment-item  {
+  display: flex;
+  position: relative;}
+
+.comments .comment-item .body-comment {
+  padding: 0px 15px 15px;}
+.comments .comment-item .body-comment p {
   font-size: 19px;
+  line-height: 24px;
+  color: #292929;
+  font-weight: lighter;
+  background-color: #e9ffff;
+  padding: 8px;
+  border-radius: 20px;
+}
+.image-wrapper {
+  min-width: 65px;
+}
+.first-user {
+  background: url("../images/user-1.png") top center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 65px;
+}
+.second-user {
+  background: url("../images/user-2.png") top center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 65px;
+}
+.third-user {
+  background: url("../images/user-3.png") top center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 65px;
+}
+.fourth-user {
+  background: url("../images/user-4.png") top center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 65px;
+}
+.comments .name {
+  color: #3e6bb7;
+  font-weight: 800;
+}
+.comments .slick-dots {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px; }
+.comments .slick-dots button {
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #bfbfbf;
+  border: none;
+  cursor: pointer; }
+.comments .slick-dots li {
+  margin-right: 5px; }
+.comments .slick-dots li:last-child {
+  margin-right: 0; }
+.comments .slick-dots li.slick-active button {
+  background: #545454; }
+.comments .slick-slide .centered img {
+  margin: 0 auto; }
+.comments .rate {
+  background: url(../images/stars.png) top left no-repeat;
+  width: 87px;
+  height: 15px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+/*---------------------------comments END----------------------------*/
+/*---------------------------FAQ----------------------------*/
+
+
+.faq {
+  padding: 40px 0;
+  background: #f6f6f6 url(../images/bg-banner4.jpg) 50% 40% no-repeat;
+  background-size: cover;
+  position: relative; }
+.faq h1 {
+  margin-bottom: 40px;
+  font-size: 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+.faq ul li {
+  text-align: center;
+  margin-bottom: 30px; }
+.faq ul li h2 {
+  font-size: 20px;
+  line-height: 26px;
+  padding: 15px 45px 15px 15px;
+  text-align: center;
+  font-weight: bold;
+  background: #2d2d2d;
+  border:2px solid #2d2d2d;
+  cursor: pointer;
+  position: relative;
+  color: #fff; }
+.faq ul li h2:hover,
+.faq ul li h2.active{
+  /*background: transparent;*/
+  /*color: #2d2d2d;*/
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.faq ul li h2:hover:after,
+.faq ul li h2.active:after{
+  border-color: #fff;
 }
 
+.faq ul li h2:after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 25px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  top: 40%; }
+.faq ul li h2.active:after {
+  -moz-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  top: 40%; }
+.faq ul li .result {
+  display: none; }
+.faq ul li p, .faq ul li li {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 15px 0;
+  font-weight: 500;
+  margin-bottom: 0; }
+.faq ul li ul {
+  padding-top: 15px; }
+.faq ul li li {
+  padding: 0; }
+.faq .result {
+  background: none !important; }
+
+/*---------------------------FAQ END----------------------------*/
 
 
 
@@ -1575,10 +1568,13 @@ form {
     right: auto;
   }
   .diagram-block .button-wrapper::before, .button-wrapper::after,
-  .third-screen .button-wrapper::before, .button-wrapper::after{
+  .third-screen .button-wrapper::before, .button-wrapper::after,
+  .fourth-screen .button-wrapper::before, .button-wrapper::after{
     display: none;
   }
-
+  .img-circle img {
+    width: 100%;
+  }
 
   form .security_box{
     padding: 0;
