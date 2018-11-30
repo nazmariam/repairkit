@@ -1312,8 +1312,6 @@ form {
 
 .faq {
   padding: 40px 0;
-  background: #f6f6f6 url(../images/bg-banner4.jpg) 50% 40% no-repeat;
-  background-size: cover;
   position: relative; }
 .faq h1 {
   margin-bottom: 40px;
@@ -1330,8 +1328,8 @@ form {
   padding: 15px 45px 15px 15px;
   text-align: center;
   font-weight: bold;
-  background: #2d2d2d;
-  border:2px solid #2d2d2d;
+  background: #2255ab;
+  border:2px solid #2255ab;
   cursor: pointer;
   position: relative;
   color: #fff; }
@@ -1439,7 +1437,7 @@ form {
   border-radius: 100px;
 }
 .carousel-indicators li.active{
-  background-color: #2d2d2d !important;
+  background-color: #3e6bb7 !important;
 }
 .carousel-indicators{
   bottom: -10px;
@@ -1621,7 +1619,7 @@ form {
   .diagram div::after {
     display: block;
     transform: none;
-    left: 260px;
+    left: 180px;
     bottom: auto;
     top: -65px;
     right: auto;
