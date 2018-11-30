@@ -1688,6 +1688,15 @@ form {
     margin-right: 25px;
     margin-left: 14px;
   }
+  .comments .comment-item .body-comment {
+    padding: 0;
+  }
+  .comments .comment-item .body-comment p {
+    margin: 0 0 0 8px;
+  }
+  .text {
+    margin: 12px 0 0 16px;
+  }
   .mg-none{
     display:block;
     text-align: center;
