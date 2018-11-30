@@ -1147,6 +1147,15 @@ form {
   flex-direction: column-reverse;
   margin: 73px 34px 40px;
 }
+.img-circle h3 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0;
+}
+.img-circle span {
+  color: #3e6bb7;
+}
 .fourth-screen-mobile-img{
   background: url(../images/red-blue.svg) top center no-repeat;
   background-size: cover;
@@ -1179,10 +1188,21 @@ form {
   background-color: #f8f8f9;
   background-size: cover;
 }
+.comments h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000;
+  width: 100%;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
 .comments .comment-item {
   background: transparent;
-  margin-bottom:0px;
-  margin-top: 30px;
+  margin-bottom:0;
+  /*margin-top: 30px;*/
   min-height: 180px;
   display: flex;
 }
@@ -1191,7 +1211,7 @@ form {
   position: relative;}
 
 .comments .comment-item .body-comment {
-  padding: 0px 15px 15px;}
+  padding:0 0 15px;}
 .comments .comment-item .body-comment p {
   font-size: 19px;
   line-height: 24px;
@@ -1200,6 +1220,7 @@ form {
   background-color: #e9ffff;
   padding: 8px;
   border-radius: 20px;
+  margin: 0 0 0 35px;
 }
 .image-wrapper {
   min-width: 65px;
@@ -1259,6 +1280,31 @@ form {
   position: absolute;
   top: 8px;
   right: 8px;
+}
+.like-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: -7px;
+}
+.text {
+  margin: 12px 0 0 44px;
+}
+.icons {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 4px;
+}
+.like-row .grey {
+  color: #a8a8a8;
+  font-size: 16px;
+  margin: 0 4px;
+}
+.like-row .blue {
+  color: #3e6bb7;
+  font-size:16px;
+  font-weight: bold;
 }
 /*---------------------------comments END----------------------------*/
 /*---------------------------FAQ----------------------------*/
